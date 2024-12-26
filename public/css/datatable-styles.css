@@ -1,0 +1,46 @@
+/* Container Styles */
+.table-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* DataTable Styles */
+.custom-table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 15px; /* Padding for cells */
+    text-align: left;
+    border: 1px solid #ddd; /* Table borders */
+}
+
+.custom-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternate row background */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e0e0e0; /* Row hover effect */
+}
+
+/* Pagination and Controls */
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
